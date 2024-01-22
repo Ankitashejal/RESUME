@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
 #container {
   text-align: center;
 
@@ -6,6 +7,42 @@
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.ion-card-title{
+  font-size:poppins bold;
+}
+ion-card
+{
+  background-color: hsl(223, 73%, 67%);
+  color: white;
+  text-emphasis-color: white;
+}
+.ion-card-title
+{
+  color: white;
+}
+ion-item {
+  --padding-start: 10;
+}
+
+ion-list{
+  border-radius: 0.5rem;
+}
+
+ion-card {
+  --background: #000;
+  --color: #02234e;
+}
+
+ion-card-title {
+  --color: #090f0e;
+  ;
+}
+
+ion-card-subtitle {
+  --color: #484b4b;
+  font-size: medium;
 }
 
 #container strong {
